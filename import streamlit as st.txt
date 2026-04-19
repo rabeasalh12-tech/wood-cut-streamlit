@@ -1,0 +1,4 @@
+import streamlit as st
+
+st.title("📐 نظام تقطيع ألواح النجارة")
+st.write("التطبيق يعمل بنجاح ✅")

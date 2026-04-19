@@ -1,5 +1,4 @@
 streamlit_app/
-│
 ├── app.py                     # واجهة Streamlit
 ├── config.py                  # الثوابت (Kerf, Trim, Board Size)
 ├── models.py                  # تعريف البيانات (Piece, Board)
@@ -36,7 +35,7 @@ class Piece:
     cut_width  = piece.final_width  - (piece.edge_top  + piece.edge_bottom)
 
     if cut_length <= 0 or cut_width <= 0:
-        raise ValueError(f"❌ خطأ في شريط الحافة للقطعة {piece.name}")
+ raise ValueError(f"❌ خطأ في شريط الحافة للقطعة {piece.name}")
 
     return cut_length, cut_width
     def allowed_rotations(piece):

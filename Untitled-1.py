@@ -1,4 +1,4 @@
-streamlit_app/
+
 ├── app.py                     # واجهة Streamlit
 ├── config.py                  # الثوابت (Kerf, Trim, Board Size)
 ├── models.py                  # تعريف البيانات (Piece, Board)
